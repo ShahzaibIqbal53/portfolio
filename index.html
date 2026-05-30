@@ -74,6 +74,25 @@
     /* Mobile menu */
     .mobile-menu { display: none; position: fixed; top: 68px; left: 0; right: 0; background: rgba(6,10,18,0.97); backdrop-filter: blur(24px); padding: 1.5rem 6%; z-index: 99; border-bottom: 1px solid rgba(255,255,255,0.06); flex-direction: column; gap: 0; }
     .mobile-menu.open { display: flex; }
+
+    #blog{
+      background-image: url("image/screencapture-localhost-form-handling-home-php-2026-05-30-10_25_39.png");
+      background-position:top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #ecom{
+      background-image: url("image/screencapture-127-0-0-1-5500-home-html-2026-05-30-11_37_11.png");
+      background-position:top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #shop{
+      background-image: url("image/screencapture-127-0-0-1-5500-index-html-2026-05-30-11_51_52.png");
+      background-position:top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   </style>
 </head>
 <body class="antialiased">
@@ -243,7 +262,7 @@
           <div class="font-fraunces font-bold text-[1.05rem] tracking-tight">Tailwind CSS</div>
           <div class="text-[0.78rem] text-muted font-semibold ml-auto">94%</div>
         </div>
-        <div class="text-[0.85rem] text-muted2 mb-4 leading-[1.7]">Rapid, utility-first UI development — responsive, dark mode, and component-level design systems.</div>
+        <div class="text-[0.85rem] text-muted2 mb-4 leading-[1.7]">Rapid, utility-first UI development responsive, dark mode, and component-level design systems.</div>
         <div class="bg-white/[0.05] rounded-full h-1"><div class="skill-bar rounded-full bg-gradient-to-r from-accent to-[#7dd3fc]" data-width="92"></div></div>
         <div class="flex flex-wrap gap-1 mt-4">
           <span class="text-[0.7rem] px-2 py-1 rounded bg-white/[0.04] border border-white/[0.06] text-muted2 font-medium">Tailwind v3</span>
@@ -311,26 +330,25 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
       <div class="reveal bg-bg border border-white/[0.06] rounded-[18px] overflow-hidden transition-all duration-[350ms] hover:-translate-y-1.5 hover:border-accent2/25 hover:shadow-[0_24px_60px_rgba(0,0,0,0.4)]">
-        <div class="h-[180px] flex items-center justify-center text-[3.5rem] relative bg-gradient-to-br from-surface to-surface2 border-b border-white/[0.06] transition-transform duration-[400ms] group-hover:scale-[1.03]">
-          <span class="absolute top-3 left-3 text-[0.7rem] font-bold text-muted bg-white/[0.05] px-2 py-0.5 rounded tracking-widest">01</span>🛒
+        <div id="ecom" class="h-[180px] flex items-center justify-center text-[3.5rem] relative bg-gradient-to-br from-surface to-surface2 border-b border-white/[0.06] transition-transform duration-[400ms] group-hover:scale-[1.03]">
+          <span class="absolute top-3 left-3 text-[0.7rem] font-bold text-muted bg-white/[0.05] px-2 py-0.5 rounded tracking-widest"></span>
         </div>
         <div class="p-[22px]">
-          <div class="font-fraunces text-[1.1rem] font-bold mb-2 tracking-tight">E-Commerce Platform</div>
-          <div class="text-muted2 text-[0.85rem] leading-[1.7] mb-4">Full-featured online store with product management, Stripe payments, and admin dashboard.</div>
+          <div class="font-fraunces text-[1.1rem] font-bold mb-2 tracking-tight">Shop.Co — E-Commerce Landing Page</div>
+          <div class="text-muted2 text-[0.85rem] leading-[1.7] mb-4">Frontend e-commerce landing page showcasing responsive layout, animations & modern UI design.</div>
           <div class="flex flex-wrap gap-1 mb-5">
-            <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">Laravel</span>
-            <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">MySQL</span>
             <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">Tailwind</span>
+            <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">HTML</span>
             <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">JS</span>
           </div>
           <div class="flex gap-2">
             <a href="#" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-accent2 text-white transition-all duration-300 hover:opacity-90 hover:-translate-y-0.5"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            <a href="#" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-white/[0.04] border border-white/[0.06] text-muted2 transition-all duration-300 hover:text-[#f0f4fc] hover:border-white/[0.12]"><i class="fab fa-github"></i> Code</a>
+            <a href="https://github.com/ShahzaibIqbal53/shop.co" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-white/[0.04] border border-white/[0.06] text-muted2 transition-all duration-300 hover:text-[#f0f4fc] hover:border-white/[0.12]"><i class="fab fa-github"></i> Code</a>
           </div>
         </div>
       </div>
 
-      <div class="reveal d1 bg-bg border border-white/[0.06] rounded-[18px] overflow-hidden transition-all duration-[350ms] hover:-translate-y-1.5 hover:border-accent2/25 hover:shadow-[0_24px_60px_rgba(0,0,0,0.4)]">
+      <!-- <div class="reveal d1 bg-bg border border-white/[0.06] rounded-[18px] overflow-hidden transition-all duration-[350ms] hover:-translate-y-1.5 hover:border-accent2/25 hover:shadow-[0_24px_60px_rgba(0,0,0,0.4)]">
         <div class="h-[180px] flex items-center justify-center text-[3.5rem] relative bg-gradient-to-br from-surface to-surface2 border-b border-white/[0.06]">
           <span class="absolute top-3 left-3 text-[0.7rem] font-bold text-muted bg-white/[0.05] px-2 py-0.5 rounded tracking-widest">02</span>📊
         </div>
@@ -347,28 +365,28 @@
             <a href="#" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-white/[0.04] border border-white/[0.06] text-muted2 transition-all duration-300 hover:text-[#f0f4fc] hover:border-white/[0.12]"><i class="fab fa-github"></i> Code</a>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="reveal d2 bg-bg border border-white/[0.06] rounded-[18px] overflow-hidden transition-all duration-[350ms] hover:-translate-y-1.5 hover:border-accent2/25 hover:shadow-[0_24px_60px_rgba(0,0,0,0.4)]">
-        <div class="h-[180px] flex items-center justify-center text-[3.5rem] relative bg-gradient-to-br from-surface to-surface2 border-b border-white/[0.06]">
-          <span class="absolute top-3 left-3 text-[0.7rem] font-bold text-muted bg-white/[0.05] px-2 py-0.5 rounded tracking-widest">03</span>💬
+        <div id="shop" class="h-[180px] flex items-center justify-center text-[3.5rem] relative bg-gradient-to-br from-surface to-surface2 border-b border-white/[0.06]">
+          <span class="absolute top-3 left-3 text-[0.7rem] font-bold text-muted bg-white/[0.05] px-2 py-0.5 rounded tracking-widest"></span>
         </div>
         <div class="p-[22px]">
-          <div class="font-fraunces text-[1.1rem] font-bold mb-2 tracking-tight">Real-Time Chat App</div>
-          <div class="text-muted2 text-[0.85rem] leading-[1.7] mb-4">Live messaging with rooms, notifications, and user authentication via WebSockets.</div>
+          <div class="font-fraunces text-[1.1rem] font-bold mb-2 tracking-tight">E-Commerce Platform</div>
+          <div class="text-muted2 text-[0.85rem] leading-[1.7] mb-4">Full-featured online store with product management, Stripe payments, and admin dashboard.</div>
           <div class="flex flex-wrap gap-1 mb-5">
             <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">Laravel</span>
-            <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">WebSockets</span>
+            <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">MYSQL</span>
             <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">JS</span>
           </div>
           <div class="flex gap-2">
-            <a href="#" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-accent2 text-white transition-all duration-300 hover:opacity-90 hover:-translate-y-0.5"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            <a href="#" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-white/[0.04] border border-white/[0.06] text-muted2 transition-all duration-300 hover:text-[#f0f4fc] hover:border-white/[0.12]"><i class="fab fa-github"></i> Code</a>
+            <a href="https://shopease-gamma-cyan.vercel.app/" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-accent2 text-white transition-all duration-300 hover:opacity-90 hover:-translate-y-0.5"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="https://github.com/ShahzaibIqbal53/shopease" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-white/[0.04] border border-white/[0.06] text-muted2 transition-all duration-300 hover:text-[#f0f4fc] hover:border-white/[0.12]"><i class="fab fa-github"></i> Code</a>
           </div>
         </div>
       </div>
 
-      <div class="reveal bg-bg border border-white/[0.06] rounded-[18px] overflow-hidden transition-all duration-[350ms] hover:-translate-y-1.5 hover:border-accent2/25 hover:shadow-[0_24px_60px_rgba(0,0,0,0.4)]">
+      <!-- <div class="reveal bg-bg border border-white/[0.06] rounded-[18px] overflow-hidden transition-all duration-[350ms] hover:-translate-y-1.5 hover:border-accent2/25 hover:shadow-[0_24px_60px_rgba(0,0,0,0.4)]">
         <div class="h-[180px] flex items-center justify-center text-[3.5rem] relative bg-gradient-to-br from-surface to-surface2 border-b border-white/[0.06]">
           <span class="absolute top-3 left-3 text-[0.7rem] font-bold text-muted bg-white/[0.05] px-2 py-0.5 rounded tracking-widest">04</span>🏥
         </div>
@@ -385,28 +403,29 @@
             <a href="#" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-white/[0.04] border border-white/[0.06] text-muted2 transition-all duration-300 hover:text-[#f0f4fc] hover:border-white/[0.12]"><i class="fab fa-github"></i> Code</a>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="reveal d1 bg-bg border border-white/[0.06] rounded-[18px] overflow-hidden transition-all duration-[350ms] hover:-translate-y-1.5 hover:border-accent2/25 hover:shadow-[0_24px_60px_rgba(0,0,0,0.4)]">
-        <div class="h-[180px] flex items-center justify-center text-[3.5rem] relative bg-gradient-to-br from-surface to-surface2 border-b border-white/[0.06]">
-          <span class="absolute top-3 left-3 text-[0.7rem] font-bold text-muted bg-white/[0.05] px-2 py-0.5 rounded tracking-widest">05</span>📰
+        <div id="blog" class="h-[180px] flex items-center justify-center text-[3.5rem] relative bg-gradient-to-br from-surface to-surface2 border-b border-white/[0.06]">
+          <span class="absolute top-3 left-3 text-[0.7rem] font-bold text-muted bg-white/[0.05] px-2 py-0.5 rounded tracking-widest"></span>
         </div>
         <div class="p-[22px]">
           <div class="font-fraunces text-[1.1rem] font-bold mb-2 tracking-tight">Blog & CMS Platform</div>
           <div class="text-muted2 text-[0.85rem] leading-[1.7] mb-4">Content management system with SEO, categories, tags, and a rich media library.</div>
           <div class="flex flex-wrap gap-1 mb-5">
+            <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">PHP</span>
             <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">Laravel</span>
             <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">Tailwind</span>
             <span class="text-[0.7rem] px-2 py-0.5 rounded bg-accent2/[0.08] border border-accent2/15 text-accent2 font-semibold">MySQL</span>
           </div>
           <div class="flex gap-2">
             <a href="#" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-accent2 text-white transition-all duration-300 hover:opacity-90 hover:-translate-y-0.5"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            <a href="#" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-white/[0.04] border border-white/[0.06] text-muted2 transition-all duration-300 hover:text-[#f0f4fc] hover:border-white/[0.12]"><i class="fab fa-github"></i> Code</a>
+            <a href="https://github.com/ShahzaibIqbal53/DevSphere" class="flex-1 text-center py-2 rounded-lg text-[0.82rem] font-semibold no-underline flex items-center justify-center gap-1 bg-white/[0.04] border border-white/[0.06] text-muted2 transition-all duration-300 hover:text-[#f0f4fc] hover:border-white/[0.12]"><i class="fab fa-github"></i> Code</a>
           </div>
         </div>
       </div>
 
-      <div class="reveal d2 bg-bg border border-white/[0.06] rounded-[18px] overflow-hidden transition-all duration-[350ms] hover:-translate-y-1.5 hover:border-accent2/25 hover:shadow-[0_24px_60px_rgba(0,0,0,0.4)]">
+      <!-- <div class="reveal d2 bg-bg border border-white/[0.06] rounded-[18px] overflow-hidden transition-all duration-[350ms] hover:-translate-y-1.5 hover:border-accent2/25 hover:shadow-[0_24px_60px_rgba(0,0,0,0.4)]">
         <div class="h-[180px] flex items-center justify-center text-[3.5rem] relative bg-gradient-to-br from-surface to-surface2 border-b border-white/[0.06]">
           <span class="absolute top-3 left-3 text-[0.7rem] font-bold text-muted bg-white/[0.05] px-2 py-0.5 rounded tracking-widest">06</span>🎓
         </div>
@@ -425,7 +444,7 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
   </section>
 
   <!-- CONTACT -->
@@ -580,7 +599,7 @@
       <p class="text-muted text-[0.8rem]">© 2025 <span class="font-semibold text-muted2">Shahzaib Iqbal</span> — All rights reserved.</p>
       <p class="text-muted text-[0.8rem] flex items-center gap-1.5">
         Built with <span class="text-accent3">♥</span> using
-        <span class="text-muted2 font-semibold">Laravel</span> &
+        <span class="text-muted2 font-semibold">JS</span> &
         <span class="text-muted2 font-semibold">Tailwind CSS</span>
       </p>
       <div class="flex items-center gap-1.5 text-[0.78rem] font-medium text-muted">
